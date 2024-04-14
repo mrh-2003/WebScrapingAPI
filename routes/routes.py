@@ -47,7 +47,7 @@ async def search_the_world_bank(name: str,  user: User = Depends(get_active_user
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/search_ofac/{name}")
-async def search_ofac(name: str):
+async def search_ofac(name: str, user: User = Depends(get_active_user)):
     try:
         table = scrape_ofac(name) 
         return {
