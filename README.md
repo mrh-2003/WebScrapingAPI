@@ -1,4 +1,4 @@
-Información general
+#Información general
 
 El presente proyecto es una REST API desarrollada en Python usando el framework FastAPI. Este proyecto hace uso de web scraping para extraer información de entidades en listas de alto riesgo. Las fuentes de información usadas son:
 
@@ -14,7 +14,7 @@ v	OFAC: https://sanctionssearch.ofac.treas.gov/
 
 §	Atributos: Name, Address, Type, Program(s), List, Score
 
-Pasos para ejecutar el proyecto:
+#Pasos para ejecutar el proyecto:
 
 Clonar el repositorio en Git Hub y de forma local crear un entorno virtual
 
